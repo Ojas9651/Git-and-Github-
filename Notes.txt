@@ -1,0 +1,18 @@
+Git and Github
+
+ 
+
+There are more software’s like Apache and Piper but we use Git and Github because 99% companies use this.
+Git tracks the changes that you made in your code.
+SCM – source control management
+VCS – version control system
+On CMD –
+git - check if git is installed
+git -v – check git version
+git cheat sheet - https://education.github.com/git-cheat-sheet-education.pdf
+
+Setup –
+ 
+Why do we setup?
+So, every time we made a change in our code, git tracks who made the changes and that is why we need to set the global config.
+
