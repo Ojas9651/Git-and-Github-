@@ -16,3 +16,24 @@ Setup –
 Why do we setup?
 So, every time we made a change in our code, git tracks who made the changes and that is why we need to set the global config.
 
+dir : lists all directories
+cd dir-name : change directory
+mkdir : makes directory
+starting –
+git-init – initializes the git in the current directory
+Initialized empty Git repository in C:/Users/SONY/Desktop/Coding/git-course/.git/ // output example
+As soon as you git init; now U is marked in front of the file
+U means – it is untracked ; project is git enabled but untracked
+ 
+A hidden folder will get created named as .git and all the tracking is saved in this folder
+Start Tracking –
+git add file-name– enable tracking your file
+ 
+Now the symbol changes to A that means additions are tracked
+When you save the symbol changes to M
+ 
+git diff – tells what changes are made
+ 
+
+git add . – to add all files of current folder
+git rm file-name – removes the files that from tracking
