@@ -19,7 +19,9 @@ So, every time we made a change in our code, git tracks who made the changes and
 dir : lists all directories
 cd dir-name : change directory
 mkdir : makes directory
+
 starting –
+
 git-init – initializes the git in the current directory
 Initialized empty Git repository in C:/Users/SONY/Desktop/Coding/git-course/.git/ // output example
 As soon as you git init; now U is marked in front of the file
@@ -37,3 +39,21 @@ git diff – tells what changes are made
 
 git add . – to add all files of current folder
 git rm file-name – removes the files that from tracking
+
+Commits –
+ 
+So when we start making changes in our code and when we finish making the changes we do commit.
+We do following –
+git add . – to add all files
+git -m commit “Initial Commit” – to commit
+ 
+
+git log –
+ 
+If we do more changes
+Do git add . and then git commit -m “commit name”, then  git log to check all commits
+
+git log –oneline – create the short id for commit
+ 
+git show id – shows what changes are made in that commit
+git blame file-name – to check which user made what changes 
