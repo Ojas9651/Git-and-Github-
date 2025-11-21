@@ -136,3 +136,7 @@ git stash – saves the local changes in a temp directory
 git pull – pulls the changes from origin
 the use 
 git stash apply – apply the changes that you were working on 
+
+Notes from Piyush Garg - Eraser IO -
+
+https://app.eraser.io/workspace/P96VaUsW5o0FXVOTDzHY
