@@ -103,3 +103,5 @@ How to make the branch –
 git branch – to check the current branch
 git branch “branch-name” – create a new branch
 git checkout “branch-name” – to switch to new branch
+
+git push --set-upstream origin “branch-name” – to push 
