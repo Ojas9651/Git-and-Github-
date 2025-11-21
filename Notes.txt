@@ -82,3 +82,11 @@ Create a repository
 git remote add origin “link-of -your-github-repo” – link your local machine git folder to the github repo
 git push -u origin main – push your current code to github 
  
+Generating private and public SSH keys –
+ 
+These keys are generated so that it will authenticate the user who is pushing the code.
+To generate a ssh key locally
+ssh-keygen -t ed25519 -C your_email@example.com
+Copy the public key to your github account
+
+git push -f - If you revert back to any previous commit we need to push forcefully
