@@ -90,3 +90,16 @@ ssh-keygen -t ed25519 -C your_email@example.com
 Copy the public key to your github account
 
 git push -f - If you revert back to any previous commit we need to push forcefully
+
+
+Branching in git (Very Very Important) –
+
+While working on collaborative environment we should never work on the main branch 
+Create a new branch like below -
+
+When the user finishes the work all the changes of branch get commit in a single commit to main
+ 
+How to make the branch –
+git branch – to check the current branch
+git branch “branch-name” – create a new branch
+git checkout “branch-name” – to switch to new branch
