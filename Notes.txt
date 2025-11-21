@@ -36,7 +36,6 @@ When you save the symbol changes to M
  
 git diff – tells what changes are made
  
-
 git add . – to add all files of current folder
 git rm file-name – removes the files that from tracking
 
@@ -57,3 +56,11 @@ git log –oneline – create the short id for commit
  
 git show id – shows what changes are made in that commit
 git blame file-name – to check which user made what changes 
+
+Staging Area –
+
+git status – if you modify a file it will tell that file is modified
+When we make changes to a file we need to move them to staging area.
+git add “file-path” – this move the file to staging area
+git commit -m “commit-name” – the file that you moved to staging area only that will be commit
+
