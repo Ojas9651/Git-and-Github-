@@ -126,3 +126,13 @@ Merger the branch with the head of main branch
 Create a new branch and make several commits
 git rebase branch-name
  
+Stashing –
+If some one made changes in code in Origin
+And you are making changes in your local code 
+And you want to pull the changes made in origin
+You can’t do it as the current changes on local code are not commit or stashed.
+Use –
+git stash – saves the local changes in a temp directory
+git pull – pulls the changes from origin
+the use 
+git stash apply – apply the changes that you were working on 
