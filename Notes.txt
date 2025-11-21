@@ -71,3 +71,14 @@ git reset –hard “commit-id” – head will move to the given commit id
 If you want to revert some changes that you made earlier in any commit –
 git revert “commit-id” – It will revert the changes made in the given commit 
 git commit -m “revert” – It will make a new commit with the latest changes made in revert and move head to this node.
+
+Collaboration with Git and Github –
+ 
+Github is central server for git.
+GitLab and BitBucket are some examples of central servers.
+
+Adding your code on Github –
+Create a repository
+git remote add origin “link-of -your-github-repo” – link your local machine git folder to the github repo
+git push -u origin main – push your current code to github 
+ 
