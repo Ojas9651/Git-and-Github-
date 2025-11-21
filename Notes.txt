@@ -121,3 +121,8 @@ Branching name convention –
 git branch “feat/add-chat-support” – means that it’s a feature and we are adding chat support 
 git branch “bug/login-not-working” - fixing a bug
 
+Rebasing –
+Merger the branch with the head of main branch
+Create a new branch and make several commits
+git rebase branch-name
+ 
