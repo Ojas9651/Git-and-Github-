@@ -64,3 +64,10 @@ When we make changes to a file we need to move them to staging area.
 git add “file-path” – this move the file to staging area
 git commit -m “commit-name” – the file that you moved to staging area only that will be commit
 
+Reverting Back Commits –
+
+All the commits are stores as nodes in a linked list and the head always points to the latest node.
+git reset –hard “commit-id” – head will move to the given commit id
+If you want to revert some changes that you made earlier in any commit –
+git revert “commit-id” – It will revert the changes made in the given commit 
+git commit -m “revert” – It will make a new commit with the latest changes made in revert and move head to this node.
